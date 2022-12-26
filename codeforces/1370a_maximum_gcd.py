@@ -27,6 +27,7 @@ if __name__ == "__main__":
     for c in range(cases):
         num = int(input())
         print(num//2)
+
     # naive solution (too slow)
     # for i in range(cases):
     #     max_gcd = 0
@@ -36,6 +37,7 @@ if __name__ == "__main__":
     #             if c1 != c2:
     #                 max_gcd = max(max_gcd, gcd_loop(c1, c2))
     #     print(max_gcd)
+
     # recursive way
     # for i in range(cases):
     #     max_gcd = 0
@@ -45,6 +47,7 @@ if __name__ == "__main__":
     #             if c1 != c2:
     #                 max_gcd = max(max_gcd, gcd_recursive(c2, c1))
     #     print(max_gcd)
+
     # eucledian way
     # for i in range(cases):
     #     max_gcd = 0
